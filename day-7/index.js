@@ -8,7 +8,7 @@ console.log(student.name);
 console.log(student.age);
 console.log(student["course"]);
 
-let student = {
+let students1 = {
     name: "Rahul",
     age: 20,
     course: "BCA",
@@ -16,8 +16,8 @@ let student = {
         console.log("Hello, my name is " + this.name);
     }
 }
-console.log(student.name);
-console.log(student["age"]);
+console.log(students1.name);
+console.log(students1["age"]);
 student.greet();
 
 let students ={
