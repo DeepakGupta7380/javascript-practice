@@ -13,20 +13,20 @@
 //     }
 // }
 
-// function orderFood(){
-//     return new Promise((resolve) => {
-//         setTimeout(() => {
-//             resolve("khana preparation");
-//         }, 2000);
-//     });
-// }
-// async function getFood(){
-//     console.log("order...");
+function orderFood(){
+    return new Promise((resolve) => {
+        setTimeout(() => {
+            resolve("khana preparation");
+        }, 2000);
+    });
+}
+async function getFood(){
+    console.log("order...");
 
-//     let message = await orderFood();
-//     console.log(message);
-// }
-// getFood();
+    let message = await orderFood();
+    console.log(message);
+}
+getFood();
 
 // async function hello(){
 //     return "Hello World";
@@ -105,8 +105,8 @@
 
 // console.log(arr2);
 
-function greet(name = "Guest"){
-    console.log(`Hello ${name}`);
-}
-greet();
-greet("Ravi");
+// function greet(name = "Guest"){
+//     console.log(`Hello ${name}`);
+// }
+// greet();
+// greet("Ravi");
